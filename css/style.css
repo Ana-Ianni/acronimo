@@ -73,9 +73,29 @@ ul{
 .burger {
   display: none; }
 
+.lan{
+  display: none;
+}
+
+.contacto-footer {
+  display: none;
+}
+
+.portada-sm{
+  display: none;
+}
+
+.bottom-inicio{
+  display: none;
+}
+
+.icono-hacemos-sm{
+  display: none;
+}
+
 .burger div {
   width: 25px;
-  height: 3px;
+  height: 1px;
   background-color: black;
   margin: 5px;
   transition: all 0.3s ease; }
@@ -101,7 +121,7 @@ ul{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    transform: translateX(100%);
+    transform: translateY(-140%);
     transition: transform 0.5s ease-in;
     z-index: 99; }
   .nav-links li {
@@ -114,7 +134,7 @@ ul{
     width: 50%; } }
 
 .nav-active {
-  transform: translateX(0%); }
+  transform: translateY(0%); }
 
 @keyframes navLinkFade {
   from {
@@ -125,15 +145,16 @@ ul{
     transform: translateX(0px); } }
 
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px); }
+  transform: rotate(-45deg) translate(-4px, 4px);}
 
 .toggle .line2 {
   opacity: 0; }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px); }
+  transform: rotate(45deg) translate(-4.5px, -4.5px); }
 
 .portada{
+  display: block;
   object-fit: cover;
   top: 72px}
 
@@ -573,6 +594,16 @@ ul{
   line-height: 21px;
   color: #FFFFFF;}
 
+.quienes-somos-title{
+  left: 339px;
+  width: 211px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 86px;
+  font-size: 45px;
+}
+
 .fade{
   transition: 0.3s;
   opacity: 1;
@@ -640,6 +671,14 @@ ul{
 
 .mensaje{
   height: 145px;}
+
+.btns-form{
+  display: flex;
+}
+
+.logo-footer{
+  display: none;
+}
 
 .btn-form{
   position: relative;
@@ -985,4 +1024,322 @@ footer img{
     position: absolute;
     top: 144px;
     left: 449px;}
+}
+
+@media (max-width: 360px){
+  nav{
+    min-height: 56px;
+    max-height: 56px;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;}
+  .nav-links {
+    padding-top: 27px;
+    padding-left: 28px;
+    padding-right: 28px;
+    position: absolute;
+    top: 56px;
+    background-color: #116375;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: 100%; 
+    height: 163px;}
+  .nav-links li {
+    margin-top: 10px;
+    height: 28px;
+    width: 100%;
+    border-bottom: 1px solid #1A8096;}
+  .contacto{
+    border-bottom: none!important;}
+  .nav-links a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    min-width: 100%; 
+    margin-bottom: 9px}
+  .btn-contact{
+    padding: 0px;
+    height: 26.5px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0px;}
+  .burger div {
+    width: 22px;
+    height: 1px;
+    background-color: #1A8096;
+    margin: 5px;
+    transition: all 0.3s ease; }
+  .bandera{
+    display: none;}
+  .logo img{
+    width: 93.5px;}
+  .lan{
+    justify-content: space-around;
+    display: flex;
+    width: 60px;
+    height: 18px;
+    right: 62px;
+    position: absolute;}
+  .lan a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4f4f4f;
+    line-height: 18px;}
+  .lan-active{
+    border-bottom: 1px solid #4f4f4f;}
+  .linea-lan{
+    margin-top: 2px;
+    height: 14px;
+    width: 1px;
+    background-color: #C0C0C0;}
+  .cont-inicio {
+    position: relative;
+    top: 56px;}
+  .portada{
+    display: none;}
+  .portada-sm{
+    display: block;
+    top: 56px;
+    object-fit: cover;}
+  .frase1{
+    position: absolute;
+    left: 23.5%;
+    top: 38px;
+    font-size: 20px;
+    line-height: 109%;
+    color: #FCFAF9;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
+  .texto1{
+    position: absolute;
+    left: 23.5%;
+    top: 73px;
+    width: 157px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FCFAF9;}
+  .row-frase-portada {
+    justify-content: center;
+    height: 53px;
+    position: relative;
+    top: -22px;}
+  .frase2 {
+    top: 0px;
+    height: 53px;
+    text-align: center;
+    max-width: 155px;
+    position: relative;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E94D35;
+    margin-bottom: 0px;}
+  .linea1 {
+    width: 41px;
+    height: 1px;
+    top: 47px;}
+  .cards-inicio {
+    position: relative;
+    width: 328px;
+    height: 734px;
+    left: 16px;}
+  .card {
+    max-width: 328px;
+    height: 238px;
+    box-shadow: 0.666405px 1.99922px 9.99608px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    text-align: center;}
+  .icono-card{
+    left: 136px;
+    width: 56px;
+    top: 21px;
+    height: 56px;}
+  .titulo-card {
+    top: 91px;
+    left: 0px;
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;}
+  .texto-card {
+    text-align: initial;
+    position: absolute;
+    top: 114px;
+    left: 36px;
+    width: 260px;}
+  .quienes-somos{
+    display: none!important;}
+  .que-hacemos{
+    top: -55px}
+  .bottom-inicio{
+    display: block;
+    z-index: -1;}
+  .titulo-que-hacemos {
+    font-weight: 700;
+    position: absolute;
+    height: 35px;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;}
+  .linea2 {
+    top: 97px;
+    position: absolute;
+    width: 41px;
+    height: 1px;
+    background-color: #E94D35;}
+  .icono-hacemos-lg{
+    display: none!important;}
+  .icono-hacemos-sm{
+    display: inline;
+    height: 56px!important;}
+  .row-iconos-hacemos {
+    align-items: baseline;
+    padding-top: 0px;
+    width: 100%;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: -60px;}
+  .titulo-hacemos {
+    margin-right: 0px;
+    margin-left: 68px;
+    width: 199px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 16px;}
+  .mkt-sm{
+    margin-left: 16px;}
+  .btns-form{
+    position: relative;
+    top: 20px;}
+  .info-contacto-lg{
+    display: none;}
+  .row-contacto {
+    top: -71px;
+    position: relative;
+    height: 400px;
+    width: 100vw;
+    background-color: #FFFFFF;}
+  .row-contacto-inner{
+    position: absolute;
+    top: 0px;
+    height: 387px;
+    width: 100vw;
+    margin-left: 16px;
+    padding-right: 16px;}
+  .col-info{
+    padding-top: 0px;
+    text-align: center;
+    height: 56px;}
+  .col-form{
+    top: 20px;
+    margin-top: 0px;
+    padding-left: 0px;}
+  .input-form{
+    width: 100%;
+    height: 36px;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid #B9B9B9;
+    margin-bottom: 13px;}
+  .mensaje{
+    height: 76px;}
+  .btn-form {
+    text-transform: uppercase;
+    position: relative;
+    left: 100px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 10px 35px 10px 35px;}
+  .wsp-button{
+    width: 104px;
+    font-size: 13px;
+    background-color: #42BD09;
+    position: relative;
+    left: 110px;
+    color: white;
+    border-radius: 2.6px;
+    padding: 11px 10px 11px 10px;}
+  .wsp-button:hover{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;}
+  .wsp{
+    height: 9px;
+    width: 9px;
+    margin: 3px 3.5px 3px 3.5px;}
+  .contactanos {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    top: 32px;}
+  footer{
+    position: relative;
+    width: 100vw;
+    height: 179px;
+    left: 0px;
+    background: #F1F1F1;}
+  .logo-footer{
+    display: block;
+    top: 121px;
+    height: 22px;
+    left: 140px;
+    width: 82px;
+    position: absolute;}
+  .contacto-footer {
+    display: block;
+    top: -30px;
+    width: 254px;
+    height: 73px;
+    position: relative;
+    left: -36px;}
+  .wrap-c{
+    width: 254px;
+    height: 73px;
+    margin-top: 0px;}
+  .info-wrap{
+    height: 12px;
+    margin-bottom: 8px;}
+  .info-wrap img {
+    margin-bottom: 24px;
+    margin-right: 10px;
+    width: 10px;}
+  .info-wrap p {
+    height: 12px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6A6A6A;}
+  .footer-flex{
+    top: 155px;
+    position: absolute;
+    display: flex;}
+  .footer {
+    margin-bottom: 0px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #c7c7c7;}
+  .footer-regular {
+    margin-bottom: 0px;
+    height: 14px;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #c7c7c7;}
+  
 }

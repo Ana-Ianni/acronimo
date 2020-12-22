@@ -20,20 +20,26 @@
         <ul class="nav-links">
             <li><a href="#conocenos">Conocenos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="#contacto" class="btn-contact">Contacto</a></li>
-            <li><a href="home.html"><img src="multimedia/us-flag.svg" alt=""></a></li>
+            <li class="contacto"><a href="#contacto" class="btn-contact">Contacto</a></li>
+            <li class="bandera"><a href="home.html" class="bandera"><img src="multimedia/us-flag.svg" alt=""></a></li>
         </ul>
 
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+            <div class="lan">
+                <a href="home.html">EN</a>
+                <div class="linea-lan"></div>
+                <a href="index.html" class="lan-active">ES</a>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
     </nav>
 
     <div class="container cont-inicio">
         <div class="row fade">
             <img src="multimedia/portada-inicio.svg" alt="" class="portada">
+            <img src="multimedia/portada-in-sm.svg" alt="" class="portada-sm">
             <p class="frase1">Despegá tu <span class="frase1-color">Marca.</span></p>
             <p class="texto1">Brindamos soluciones de Relaciones Públicas y Marketing para hacer crecer tu negocio. </p>
         </div>
@@ -42,17 +48,17 @@
             <div class="linea1"></div>
         </div>
         <div class="row cards-inicio fade">
-            <div class="col col-lg-4 col-md-4 card">
+            <div class="col col-lg-4 col-md-4 col-12 card">
                 <img src="multimedia/card1.svg" alt="" class="icono-card">
                 <p class="titulo-card">Digital</p>
                 <p class="texto-card">Nuestros servicios están diseñados para generar óptimos resultados exclusivamente en la esfera digital, la tecnología es transversal en nuestras vidas y ningún profesional, emprendedor, pequeña, mediana o gran empresa está exento. </p>
             </div>
-            <div class="col col-lg-4 col-md-4 card">
+            <div class="col col-lg-4 col-md-4 col-12 card">
                 <img src="multimedia/card2.svg" alt="" class="icono-card">
                 <p class="titulo-card">Boutique</p>
                 <p class="texto-card">Escuchamos, realizamos un diagnóstico y diseñamos una propuesta a medida y enfocada en un objetivo único. Cada emprendimiento, profesión o negocio es un mundo, y como tal guiamos y aconsejamos durante todo el proceso de digitalización. </p>
             </div>
-            <div class="col col-lg-4 col-md-4 card">
+            <div class="col col-lg-4 col-md-4 col-12 card">
                 <img src="multimedia/card3.svg" alt="" class="icono-card">
                 <p class="titulo-card">100% Remota</p>
                 <p class="texto-card">El trabajo remoto llegó para quedarse y Acrónimo nació en este contexto; y fiel a su estilo se adapta a la coyuntura. Además, en estos tiempos en que  los límites geográficos no existen queremos llevar nuestras soluciones a cualquier parte del globo. </p>
@@ -77,20 +83,24 @@
             </div>
         </div>
         <div class="row que-hacemos fade">
+            <img src="multimedia/bottom-inicio.svg" alt="" class="bottom-inicio">
             <p class="titulo-que-hacemos">¿Qué hacemos?</p>
             <div class="linea2"></div>
         </div>
         <div class="row row-iconos-hacemos fade">
             <div class="col-lg-4 col-md-4 icono-hacemos">
-                <img src="multimedia/icono-hacemos1.svg" alt="">
+                <img src="multimedia/icono-hacemos1.svg" alt="" class="icono-hacemos-lg">
+                <img src="multimedia/icono-hacemos-sm1.svg" alt="" class="icono-hacemos-sm">
                 <p class="titulo-hacemos">Relaciones Públicas y Comunicación Institucional</p>
             </div>
             <div class="col-lg-4 col-md-4 icono-hacemos">
-                <img src="multimedia/icono-hacemos1.svg" alt="">
+                <img src="multimedia/icono-hacemos2.svg" alt="" class="icono-hacemos-lg">
+                <img src="multimedia/icono-hacemos-sm2.svg" alt="" class="icono-hacemos-sm mkt-sm">
                 <p class="titulo-hacemos">Marketing Digital</p>
             </div>
             <div class="col-lg-4 col-md-4 icono-hacemos">
-                <img src="multimedia/icono-hacemos1.svg" alt="">
+                <img src="multimedia/icono-hacemos3.svg" alt="" class="icono-hacemos-lg">
+                <img src="multimedia/icono-hacemos-sm3.svg" alt="" class="icono-hacemos-sm">
                 <p class="titulo-hacemos">Social Media</p>
             </div>
         </div>
@@ -98,7 +108,7 @@
             <div class="row row-contacto-inner">
                 <div class="col-lg-4 col-md-4 col-info">
                     <p class="contactanos">Contactanos</p>
-                    <div class="wrap-c">
+                    <div class="wrap-c info-contacto-lg">
                         <div class="info-wrap">
                             <img src="multimedia/logo-mail.svg" alt="">
                             <p>acronimoagenciadigital@gmail.com</p>
@@ -117,19 +127,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-form">
+                <div class="col-lg-8 col-md-8 col-12 col-form">
                     <form action="mailto:acronimoagenciadigital@gmail.com" method="post" enctype="text/plain">
                         <input type="text" name="name" placeholder="  Nombre*" class="input-form"><br>
                         <input type="text" name="name" placeholder="  Apellido*" class="input-form"><br>
                         <input type="text" name="mail" placeholder="  Email*" class="input-form"><br>
                         <input type="text" name="comment" size="50" placeholder="  Mensaje*" class="input-form mensaje"><br>
-                        <input type="submit" value="Enviar" class="btn-form">
+                        <div class="btns-form">
+                            <input type="submit" value="Enviar" class="btn-form">
+                            <a href="" class="wsp-button">WHATSAPP<img src="multimedia/logo-wsp.svg" alt="" class="wsp"></a>
+                        </div>
                 </div>
             </div>
         </div>
         <footer>
-            <img src="multimedia/copyright-logo.svg" alt="">
-            <p class="footer">Agencia Acrónimo <span class="footer-regular">Todos los derechos reservados</span></p>
+            <div class="contacto-footer">
+                <div class="wrap-c info-contacto-sm">
+                    <div class="info-wrap">
+                        <img src="multimedia/logo-mail.svg" alt="">
+                        <p>acronimoagenciadigital@gmail.com</p>
+                    </div>
+                    <div class="info-wrap">
+                        <img src="multimedia/logo-fb.svg" alt="">
+                        <p>Acronimo Agencia Digital</p>
+                    </div>
+                    <div class="info-wrap">
+                        <img src="multimedia/logo-insta.svg" alt="">
+                        <p>@acronimoagenciadigital</p>
+                    </div>
+                    <div class="info-wrap">
+                        <img src="multimedia/logo-in2.svg" alt="">
+                        <p>acronimo-agenciadigital</p>
+                    </div>
+                </div>
+            </div>
+            <img src="multimedia/logo-nav.svg" alt="" class="logo-footer">
+            <div class="footer-flex">
+                <img src="multimedia/copyright-logo.svg" alt="">
+                <p class="footer">Agencia Acrónimo <span class="footer-regular">Todos los derechos reservados</span></p>
+            </div>
         </footer>
     </div>
 
