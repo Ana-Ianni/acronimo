@@ -93,6 +93,10 @@ ul{
   display: none;
 }
 
+.svcios-mkt-sm{
+  display: none;
+}
+
 .burger div {
   width: 25px;
   height: 1px;
@@ -462,6 +466,14 @@ ul{
 
 .mockup-mkt{
   position: absolute;}
+
+.mockup-mkt-sm{
+  display: none;
+}
+
+.social-sm{
+  display: none;
+}
 
 .titulo-mkt{
   width: 223px;
@@ -1143,8 +1155,65 @@ footer img{
   .cards-inicio {
     position: relative;
     width: 328px;
-    height: 734px;
+    height: 790px;
     left: 16px;}
+  .row-mkt {
+    height: 660px;}
+  .mockup-mkt{
+    width: 85%;
+    left: 0px;}
+  .titulo-mkt {
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 18px;
+    left: 24px;
+    top: 7px;}
+  .textos-mkt {
+    position: relative;
+    width: 253px;
+    height: 355px;
+    left: -26px;
+    top: 252px;}
+  .subtitulo-mkt {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 12px;
+    text-align: center;}
+  .svcios-mkt{
+    display: none;}
+  .svcios-mkt-sm{
+    position: relative;
+    top: -34px;
+    height: 610px;
+    display: block;}
+  .card-mkt img {
+    height: 56px;
+    margin-bottom: 12px;
+    margin-left: 0px;}
+  .titulo-social-media{
+    height: 30px;
+    position: relative;
+    top: -777px;
+    width: 100vw;
+    left: 0px;}
+  .titulo-social-media p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 7px;}
+  .linea3 {
+    left: 159px;
+    position: relative;
+    width: 41px;
+    height: 1px;
+    top: 0px;
+    background-color: #E94D35;}
+  
+  
+  
+  
   .card {
     max-width: 328px;
     height: 238px;
@@ -1216,6 +1285,120 @@ footer img{
     margin-top: 16px;}
   .mkt-sm{
     margin-left: 16px;}
+  .frase1-s{
+    position: absolute;
+    left: 23.5%;
+    top: 38px;}
+  .texto1-s {
+    position: absolute;
+    left: 23.5%;
+    top: 73px;
+    width: 181px;}
+  .frase2-s {
+    width: 233px;}
+  .linea1-svcio {
+    position: absolute;
+    top: 51px;
+    height: 1px;
+    left: 159px;
+    width: 41px;}
+  .icono-card-svcio {
+    height: 56px;
+    top: 21px;}
+  .titulo-card2 {
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;}
+  .texto-card2 {
+    top: 133px;
+    left: 35px;
+    width: 260px;
+    height: 95px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: initial;}
+  .card-mkt {
+    padding: 0px;
+    left: 51px;
+    text-align: center;
+    height: 221px;
+    width: 255px;}
+  .card-mkt--titulo {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 13px;}
+  .card-mkt--texto {
+    width: 255px;
+    text-align: initial;
+    position: relative;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;}
+  .social-media-fondo{
+    display: none;}
+  .social-sm{
+    display: block;}
+  .row-social-media{
+    height: 844px;}
+  .titulo-social-media {
+    text-align: center;
+    height: 30px;
+    position: relative;
+    top: -777px;
+    width: 100vw;
+    left: 0px;}
+  .titulo-social-media p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 7px;}
+  .linea3 {
+    left: 159px;
+    position: relative;
+    width: 41px;
+    height: 1px;
+    top: 0px;
+    background-color: #E94D35;}
+  .svcios-social {
+    margin-left: 45px;
+    top: -754px;
+    position: relative;
+    height: 632px;
+    width: 275px;
+    display: flex;
+    justify-content: space-around;}
+  .col-socialmedia {
+    text-align: center;
+    padding: 0px;
+    max-width: 275px;}
+  .col-socialmedia img {
+    height: 56px;
+    margin-left: 0px;
+    margin-bottom: 12px;}
+  .card-social--titulo0 {
+    margin-left: 45px;
+    text-align: center;
+    width: 175px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 12px;}
+  .card-social--texto {
+    margin-bottom: 29px;
+    text-align: initial;
+    width: 275px;
+    height: 94px;
+    font-size: 12px;
+    line-height: 14px;}
+    .card-social--titulo1 {
+      width: 100%;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 12px;}
   .btns-form{
     position: relative;
     top: 20px;}
