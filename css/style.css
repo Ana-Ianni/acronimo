@@ -692,17 +692,200 @@ ul{
   display: none;
 }
 
-.btn-form{
+.conocenos-sm{
+  display: none;
+}
+
+.titulo-conocenos{
   position: relative;
-  left: 79.5%;
+  height: 121px;}
+
+.titulo-conocenos img{
+  z-index: 1;}
+
+.titulo-c{
+  z-index: 2;
+  position: absolute;
+  left: 98px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FCFAF9;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
+
+.titulo-color{
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  color: #F7A837;}
+
+.linea-conocenos{
+  background-color: #F7A837;
+  position: absolute;
+  left: 98px;
+  z-index: 2;
+  width: 32px;
+  height: 1.5px;
+  top: 60px;}
+
+.conocenos-info{
+  height: 198px;}
+
+.fondo-conocenos1{
+  object-fit: cover;
+  height: 199px;}
+
+.foto-carla-sm{
+  position: absolute;
+  height: 129px;
+  width: 129px;
+  top: 137px;
+  left: 36px;
+  filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
+
+.texto-conocenos-sm1{
+  left: 174px;
+  top: 151px;
+  width: 180px;
+  font-size: 11px;
+  line-height: 14px;
+  position: absolute;
+  color: white;}
+
+.nombre1-sm{
+  font-weight: 500;
+  left: 36px;
+  position: absolute;
+  font-size: 12px;
+  color: #4f4f4f;
+  top: 269px;}
+
+.cofunder1{
+  color: #939393;
+  top: 283px;
+  left: 36px;
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.btn-in{
+  left: 328px;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 250px;}
+
+.btn-in img{
+  height: 16px;
+  width: 16px;
+  position: absolute;}
+
+.fondo-conocenos2{
+  transform: scaleX(-1);
+  object-fit: cover;
+  height: 199px;}
+
+.foto-delfina-sm{
+  position: absolute;
+  height: 129px;
+  width: 129px;
+  top: 335px;
+  left: 195px;
+  filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
+
+.nombre2-sm{
+  font-weight: 500;
+  left: 245px;
+  position: absolute;
+  font-size: 12px;
+  color: #4f4f4f;
+  top: 467px;}
+  
+.cofunder2{
+  color: #939393;
+  top: 481px;
+  left: 266px;
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;}
+
+.texto-conocenos-sm2{
+  color: #ffffff;
+  top: 345px;
+  font-size: 11px;
+  width: 176px;
+  position: absolute;
+  line-height: 14px;
+  left: 16px;}
+
+.btn-in2{
+  left: 16px;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 450px;}
+  
+.btn-in2 img{
+  height: 16px;
+  width: 16px;
+  position: absolute;}
+
+.row-contacto1{
+  top: 0px;
+  position: relative;
+  height: 400px;
+  width: 100vw;
+  background-color: #FFFFFF;}
+
+.col-form1 {
+  top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;}
+
+.titulo-c-E{
+  z-index: 2;
+  position: absolute;
+  left: 134px;
+  top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FCFAF9;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
+
+.linea-conocenos-E{
+  background-color: #F7A837;
+  position: absolute;
+  left: 134px;
+  z-index: 2;
+  width: 32px;
+  height: 1.5px;
+  top: 60px;
+}
+
+.btn-form{
+  height: 40px;
+  position: relative;
+  left: 77.5%;
   color: white;
   font-weight: 500;
   font-size: 16px;
-  line-height: 21px;
-  padding: 14px 33px 16px 33px;
+  line-height: 16px;
+  padding: 12px 29px 12px 29px;
   background: #2FA6C1;
   border-radius: 2.62281px;
   border: none;}
+
+.wsp-button{
+  display: none;
+}
+
+.wsp-button-lg{
+  right: 15px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  filter: drop-shadow(1.71771px 3.43542px 3.43542px rgba(0, 0, 0, 0.2));}
 
 footer{
   position: relative;
@@ -955,6 +1138,7 @@ footer img{
     font-size: 12px;
     line-height: 16px;}
   .svcios-mkt {
+    display: flex;
     position: relative;
     margin-left: 7.5%;
     top: 5px;
@@ -1078,6 +1262,10 @@ footer img{
     width: 100%;
     background-color: transparent;
     border-radius: 0px;}
+  .conocenos-sm{
+    display: block;}
+  .conocenos-lg{
+    display: none;}
   .burger div {
     width: 22px;
     height: 1px;
@@ -1181,7 +1369,7 @@ footer img{
     margin-bottom: 12px;
     text-align: center;}
   .svcios-mkt{
-    display: none;}
+    display: none!important;}
   .svcios-mkt-sm{
     position: relative;
     top: -34px;
@@ -1443,6 +1631,7 @@ footer img{
     line-height: 16px;
     padding: 10px 35px 10px 35px;}
   .wsp-button{
+    display: block;
     width: 104px;
     font-size: 13px;
     background-color: #42BD09;
