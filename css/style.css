@@ -2475,8 +2475,95 @@ footer img{
     width: 41px;}
 }
 
-
-
+@media (max-width: 375px){
+  .frase1{
+    top: 42px;}
+  .texto1{
+    top: 76px;}
+  .icono-card {
+    left: 122px;}
+  .texto-card {
+    top: 117px;
+    left: 20px;}
+  .titulo-hacemos{
+    margin-left: 73px;}
+  .btn-form {
+    left: 115px;}
+  .wsp-button{
+    left: 126px;}
+  .logo-footer {
+    left: 146.5px;}
+  .conocenos-sm{
+    display: block;}
+  .conocenos-lg{
+    display: none;}
+  .frase1-s{
+    top: 76px;
+    left: 27.5%;}
+  .texto1-s{
+    top: 70px;
+    left: 27.5%;}
+  .texto-card2{
+    left: 20px;}
+  .mockup-mkt {
+    top: 947px;}
+  .titulo-mkt{
+    left: 55px;
+    top: 15px;}
+  .textos-mkt{
+    left: -15px;}
+  .svcios-mkt-sm {
+    left: -15px;}
+  .titulo-social-media {
+    top: -810px;}
+  .linea3 {
+    left: 167px;}
+  .svcios-social {
+    top: -775px;}
+  .frase1-es{
+    top: 34px;}
+  .texto1-es{
+    top: 68px;}
+  .titulo-conocenos{
+    height: 130px;}
+  .foto-carla-sm{
+    height: 130px;
+    width: 130px;
+    top: 144px;
+    left: 44px;}
+  .nombre1-sm {
+    left: 44px;
+    top: 278px;}
+  .cofunder1 {
+    top: 292px;
+    left: 44px;}
+  .texto-conocenos-sm1 {
+    left: 184px;
+    top: 153px;
+    width: 180px;
+    font-size: 11px;}
+  .btn-in {
+    left: 345px;
+    top: 259px;}
+  .foto-delfina-sm {
+    height: 130px;
+    width: 130px;
+    top: 345px;
+    left: 200px;}
+  .nombre2-sm {
+    left: 253px;
+    top: 478px;}
+  .cofunder2 {
+    top: 492px;
+    left: 274px;}
+  .texto-conocenos-sm2 {
+    top: 354px;
+    font-size: 11px;
+    width: 180px;
+    left: 14px;}
+  .btn-in2 {
+    top: 460px;}
+}
 
 @media (max-width: 360px){
   nav{
