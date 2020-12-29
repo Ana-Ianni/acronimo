@@ -20,8 +20,8 @@
   
 @media (min-width: 992px){
   .container{
-    max-width: 1920px;
-  }}
+    max-width: 1920px;}
+  }
   
 html {
   scroll-behavior: smooth;
@@ -2010,23 +2010,24 @@ footer img{
     height: 790px;
     left: 10%;}
   .row-mkt {
-    height: 660px;}
-  .mockup-mkt{
-    width: 85%;
-    left: 0px;}
+    height: 710px;}
+  .mockup-mkt {
+    top: 983px;
+    width: 95%;
+    left: -50px;}
   .titulo-mkt {
     width: 80px;
     height: 35px;
     font-size: 16px;
     line-height: 18px;
-    left: 24px;
-    top: 7px;}
-  .textos-mkt {
-    position: relative;
-    width: 253px;
-    height: 355px;
-    left: -26px;
-    top: 252px;}
+    left: 64px;
+    top: 18px;}
+    .textos-mkt {
+      position: relative;
+      width: 253px;
+      height: 355px;
+      left: 0px;
+      top: 285px;}
   .subtitulo-mkt {
     font-size: 14px;
     line-height: 16px;
@@ -2042,7 +2043,7 @@ footer img{
   .card-mkt img {
     height: 56px;
     margin-bottom: 12px;
-    margin-left: 0px;}
+    margin-left: 102px;}
   .titulo-social-media{
     height: 30px;
     position: relative;
@@ -2171,11 +2172,12 @@ footer img{
     text-align: initial;}
   .card-mkt {
     padding: 0px;
-    left: 51px;
+    left: 77px;
     text-align: center;
     height: 221px;
-    width: 255px;}
+    width: 260px;}
   .card-mkt--titulo {
+    text-align: start;
     position: relative;
     font-size: 14px;
     line-height: 18px;
@@ -2190,6 +2192,7 @@ footer img{
   .social-media-fondo{
     display: none;}
   .social-sm{
+    width: 100vw;
     display: block;}
   .row-social-media{
     height: 844px;}
@@ -2197,7 +2200,7 @@ footer img{
     text-align: center;
     height: 30px;
     position: relative;
-    top: -777px;
+    top: -885px;
     width: 100vw;
     left: 0px;}
   .titulo-social-media p {
@@ -2207,37 +2210,36 @@ footer img{
     color: #FFFFFF;
     margin-bottom: 7px;}
   .linea3 {
-    left: 159px;
+    left: 186.5px;
     position: relative;
     width: 41px;
     height: 1px;
     top: 0px;
     background-color: #E94D35;}
-  .svcios-social {
-    margin-left: 45px;
-    top: -754px;
-    position: relative;
-    height: 632px;
-    width: 275px;
-    display: flex;
-    justify-content: space-around;}
+    .svcios-social {
+      margin-left: 12.5%;
+      top: -860px;
+      position: relative;
+      height: 632px;
+      width: 75%;
+      display: flex;
+      justify-content: space-around;}
   .col-socialmedia {
     text-align: center;
     padding: 0px;
     max-width: 275px;}
   .col-socialmedia img {
-    height: 56px;
+    height: 50px;
     margin-left: 0px;
     margin-bottom: 12px;}
-  .card-social--titulo0 {
-    margin-left: 45px;
-    text-align: center;
-    width: 175px;
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 12px;}
+    .card-social--titulo {
+      text-align: start;
+      font-size: 14px;
+      line-height: 18px;
+      width: 190px;
+      margin-bottom: 14px;}
   .card-social--texto {
-    margin-bottom: 29px;
+    margin-bottom: 20px;
     text-align: initial;
     width: 275px;
     height: 94px;
@@ -2245,6 +2247,7 @@ footer img{
     line-height: 14px;}
     .card-social--titulo1 {
       width: 100%;
+      text-align: start;
       font-size: 14px;
       line-height: 18px;
       margin-bottom: 12px;}
@@ -2455,6 +2458,21 @@ footer img{
       position: absolute;
       font-size: 10px;
       text-transform: uppercase;}
+  .row-frase-portada-s {
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+    height: 80px;}
+  .frase2-s {
+    font-size: 15px;
+    width: 233px;
+    line-height: 20px;}
+  .linea1-svcio {
+    position: relative;
+    top: 46px;
+    height: 1px;
+    left: 0px;
+    width: 41px;}
 }
 
 
@@ -2585,16 +2603,18 @@ footer img{
     left: 16px;}
   .row-mkt {
     height: 660px;}
-  .mockup-mkt{
-    width: 85%;
-    left: 0px;}
+  .mockup-mkt {
+    width: 95%;
+    left: -12%;
+    top: 937px;
+    position: absolute;}
   .titulo-mkt {
     width: 80px;
     height: 35px;
     font-size: 16px;
     line-height: 18px;
-    left: 24px;
-    top: 7px;}
+    left: 58px;
+    top: 10px;}
   .textos-mkt {
     position: relative;
     width: 253px;
@@ -2613,10 +2633,10 @@ footer img{
     top: -34px;
     height: 610px;
     display: block;}
-  .card-mkt img {
-    height: 56px;
-    margin-bottom: 12px;
-    margin-left: 0px;}
+    .card-mkt img {
+      height: 56px;
+      margin-bottom: 12px;
+      margin-left: 102px;}
   .titulo-social-media{
     height: 30px;
     position: relative;
@@ -2707,13 +2727,13 @@ footer img{
     margin-top: 16px;}
   .mkt-sm{
     margin-left: 16px;}
-  .frase1-s{
-    position: absolute;
-    left: 23.5%;
-    top: 38px;}
+    .frase1-s {
+      position: absolute;
+      left: 28%;
+      top: 32px;}
   .texto1-s {
     position: absolute;
-    left: 23.5%;
+    left: 28%;
     top: 73px;
     width: 181px;}
   .frase2-s {
@@ -2743,11 +2763,12 @@ footer img{
     line-height: 15px;
     text-align: initial;}
   .card-mkt {
+    position: relative;
+    margin: 0px;
     padding: 0px;
-    left: 51px;
+    left: 50px;
     text-align: center;
-    height: 221px;
-    width: 255px;}
+    height: 221px;}
   .card-mkt--titulo {
     position: relative;
     font-size: 14px;
@@ -2802,13 +2823,12 @@ footer img{
     height: 56px;
     margin-left: 0px;
     margin-bottom: 12px;}
-  .card-social--titulo0 {
-    margin-left: 45px;
-    text-align: center;
-    width: 175px;
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 12px;}
+    .card-social--titulo {
+      margin-left: 42.5px;
+      width: 190px;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 14px;}
   .card-social--texto {
     margin-bottom: 29px;
     text-align: initial;
@@ -2949,151 +2969,143 @@ footer img{
     color: #c7c7c7;}
   .wsp-button-lg{
     display: none;}
-    .titulo-conocenos{
-      position: relative;
-      height: 121px;}
-    
-    .titulo-conocenos img{
-      z-index: 1;}
-    
-    .titulo-c{
-      z-index: 2;
-      position: absolute;
-      left: 98px;
-      top: 30px;
-      font-weight: bold;
-      font-size: 20px;
-      color: #FCFAF9;
-      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
-    
-    .titulo-color{
-      font-weight: bold;
-      font-size: 20px;
-      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-      color: #F7A837;}
-    
-    .linea-conocenos{
-      background-color: #F7A837;
-      position: absolute;
-      left: 98px;
-      z-index: 2;
-      width: 32px;
-      height: 1.5px;
-      top: 60px;}
-    
-    .conocenos-info{
-      height: 198px;}
-    
-    .fondo-conocenos1{
-      object-fit: cover;
-      height: 199px;}
-    
-    .foto-carla-sm{
-      position: absolute;
-      height: 129px;
-      width: 129px;
-      top: 137px;
-      left: 36px;
-      filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
-    
-    .texto-conocenos-sm1{
-      left: 174px;
-      top: 151px;
-      width: 180px;
-      font-size: 11px;
-      line-height: 14px;
-      position: absolute;
-      color: white;}
-    
-    .nombre1-sm{
-      font-weight: 500;
-      left: 36px;
-      position: absolute;
-      font-size: 12px;
-      color: #4f4f4f;
-      top: 269px;}
-    
-    .cofunder1{
-      color: #939393;
-      top: 283px;
-      left: 36px;
-      position: absolute;
-      font-size: 10px;
-      text-transform: uppercase;
-    }
-    
-    .btn-in{
-      left: 328px;
-      height: 16px;
-      width: 16px;
-      position: absolute;
-      top: 250px;}
-    
-    .btn-in img{
-      height: 16px;
-      width: 16px;
-      position: absolute;}
-    
-    .fondo-conocenos2{
-      transform: scaleX(-1);
-      object-fit: cover;
-      height: 199px;}
-    
-    .foto-delfina-sm{
-      position: absolute;
-      height: 129px;
-      width: 129px;
-      top: 335px;
-      left: 195px;
-      filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
-    
-    .nombre2-sm{
-      font-weight: 500;
-      left: 245px;
-      position: absolute;
-      font-size: 12px;
-      color: #4f4f4f;
-      top: 467px;}
-      
-    .cofunder2{
-      color: #939393;
-      top: 481px;
-      left: 266px;
-      position: absolute;
-      font-size: 10px;
-      text-transform: uppercase;}
-    
-    .texto-conocenos-sm2{
-      color: #ffffff;
-      top: 345px;
-      font-size: 11px;
-      width: 176px;
-      position: absolute;
-      line-height: 14px;
-      left: 16px;}
-    
-    .btn-in2{
-      left: 16px;
-      height: 16px;
-      width: 16px;
-      position: absolute;
-      top: 450px;}
-      
-    .btn-in2 img{
-      height: 16px;
-      width: 16px;
-      position: absolute;}
-    
-    .row-contacto1{
-      top: 0px;
-      position: relative;
-      height: 400px;
-      width: 100vw;
-      background-color: #FFFFFF;}
-    
-    .col-form1 {
-      top: 0px;
-      margin-top: 0px;
-      padding-left: 0px;}
-    
+  .titulo-conocenos{
+    position: relative;
+    height: 121px;}
+  .titulo-conocenos img{
+    z-index: 1;}
+  .titulo-c{
+    z-index: 2;
+    position: absolute;
+    left: 98px;
+    top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FCFAF9;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
+  .titulo-color{
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    color: #F7A837;}
+  .linea-conocenos{
+    background-color: #F7A837;
+    position: absolute;
+    left: 98px;
+    z-index: 2;
+    width: 32px;
+    height: 1.5px;
+    top: 60px;}
+  .conocenos-info{
+    height: 198px;}
+  .fondo-conocenos1{
+    object-fit: cover;
+    height: 199px;}
+  .foto-carla-sm{
+    position: absolute;
+    height: 129px;
+    width: 129px;
+    top: 137px;
+    left: 36px;
+    filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
+  .texto-conocenos-sm1{
+    left: 174px;
+    top: 151px;
+    width: 180px;
+    font-size: 11px;
+    line-height: 14px;
+    position: absolute;
+    color: white;}
+  .nombre1-sm{
+    font-weight: 500;
+    left: 36px;
+    position: absolute;
+    font-size: 12px;
+    color: #4f4f4f;
+    top: 269px;}
+  .cofunder1{
+    color: #939393;
+    top: 283px;
+    left: 36px;
+    position: absolute;
+    font-size: 10px;
+    text-transform: uppercase;}
+  .btn-in{
+    left: 328px;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 250px;}
+  .btn-in img{
+    height: 16px;
+    width: 16px;
+    position: absolute;}
+  .fondo-conocenos2{
+    transform: scaleX(-1);
+    object-fit: cover;
+    height: 199px;}
+  .foto-delfina-sm{
+    position: absolute;
+    height: 129px;
+    width: 129px;
+    top: 335px;
+    left: 195px;
+    filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
+  .nombre2-sm{
+    font-weight: 500;
+    left: 245px;
+    position: absolute;
+    font-size: 12px;
+    color: #4f4f4f;
+    top: 467px;}
+  .cofunder2{
+    color: #939393;
+    top: 481px;
+    left: 266px;
+    position: absolute;
+    font-size: 10px;
+    text-transform: uppercase;}
+  .texto-conocenos-sm2{
+    color: #ffffff;
+    top: 345px;
+    font-size: 11px;
+    width: 176px;
+    position: absolute;
+    line-height: 14px;
+    left: 16px;}
+  .btn-in2{
+    left: 16px;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 450px;}  
+  .btn-in2 img{
+    height: 16px;
+    width: 16px;
+    position: absolute;}
+  .row-contacto1{
+    top: 0px;
+    position: relative;
+    height: 400px;
+    width: 100vw;
+    background-color: #FFFFFF;}
+  .col-form1 {
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;}
+  .row-frase-portada-s {
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+    height: 80px;}
+  .frase2-s {
+    font-size: 15px;
+    width: 233px;
+    line-height: 20px;}
+  .linea1-svcio {
+    position: relative;
+    top: 46px;
+    height: 1px;
+    left: 0px;
+    width: 41px;}
 }
