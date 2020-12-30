@@ -103,7 +103,7 @@ ul{
 .burger div {
   width: 25px;
   height: 1px;
-  background-color: black;
+  background-color: #1A8096;
   margin: 5px;
   transition: all 0.3s ease; }
 
@@ -119,26 +119,74 @@ ul{
   body {
     overflow-x: hidden!important;}
   .nav-links {
+    padding: 3% 10% 3% 10%;
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: white;
+    height: auto;
+    top: 72px;
+    background-color:#116375;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    transform: translateY(-140%);
+    width: 100%!important;
+    transform: translateY(-150%);
     transition: transform 0.5s ease-in;
     z-index: 99; }
   .nav-links li {
+    margin-top: 10px;
+    height: 28px;
+    width: 100%;
+    border-bottom: 1px solid #1A8096;
     opacity: 0; }
+  .nav-links a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    min-width: 100%; 
+    margin-bottom: 9px}
+  .btn-contact{
+    padding: 0px;
+    height: 26.5px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0px;}
+  .contacto{
+    border-bottom: none!important;}
+  .bandera{
+    display: none;}
+  .lan{
+    justify-content: space-around;
+    display: flex;
+    width: 60px;
+    height: 18px;
+    right: 18%;
+    position: absolute;}
+  .lan a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4f4f4f;
+    line-height: 18px;}
+  .lan-active{
+    border-bottom: 1px solid #4f4f4f;}
+  .linea-lan{
+    margin-top: 2px;
+    height: 14px;
+    width: 1px;
+    background-color: #C0C0C0;}
   .burger {
+    right: 8%;
+    position: absolute;
     display: block;
     cursor: pointer; }
+  .logo{
+    position: absolute;
+    left: 8%;}
   .foto {
     height: 50%;
-    width: 50%; } }
+    width: 50%; } 
+  } 
 
 .nav-active {
   transform: translateY(0%); }
@@ -1881,9 +1929,155 @@ footer img{
   }
 }
 
-
-
-
+@media (max-width: 768px){
+  .frase1 {
+    left: 108.5px;
+    top: 85px;
+    font-size: 37px;}
+  .texto1 {
+    left: 108.5px;
+    top: 157px;}
+  .linea1 {
+    top: 103px;}
+  .cards-inicio {
+    width: 90%;
+    left: 5%;
+    height: 380px;}
+  .card {
+    max-width: 32%;}
+  .icono-card {
+    left: 75.5px;
+    width: 70px;
+    top: 25px;
+    height: 70px;}
+  .titulo-card {
+    top: 125px;
+    left: 15px;}
+  .texto-card {
+    top: 160px;
+    left: 15px;
+    width: 195px;}
+  .quienes-somos-titulo {
+    left: 86px;
+    top: 44px;
+    font-size: 20px;
+    line-height: 25px;}
+  .foto1, .foto2, .foto-hover, .foto-hover2 {
+    max-width: 120px;
+    max-height: 120px;
+    top: 84px;}
+  .foto1, .foto-hover, .nombre-foto, .cofounder {
+    left: 256px;}
+  .cofounder, .cofounder2 {
+    top: 229px;
+    font-size: 10px;}
+  .nombre-foto, .nombre-foto2{
+    top: 211px;
+    font-size: 12px;}
+  .foto2, .foto-hover2{
+    left: 391px;}
+  .nombre-foto2 {
+    left: 434px;}
+  .cofounder2 {
+    left: 448px;}
+  .foto-hover--texto {
+    width: 110px;
+    height: 140px;
+    left: 5px;
+    top: 5px;
+    font-size: 8px;
+    line-height: 10px;}
+  .foto-hover a, .foto-hover2 a{
+    left: 0px;
+    top: 95px;}
+  .foto-hover img, .foto-hover2 img{
+    height: 13px;}
+  .que-hacemos {
+    height: 100px;}
+  .titulo-que-hacemos {
+    position: relative;
+    height: 25px;
+    font-size: 24px;
+    line-height: 31px;
+    top: -10px;}
+  .row-iconos-hacemos {
+    align-items: baseline;
+    padding-top: 78px;
+    width: 80%;
+    height: 370px;
+    margin-left: 10%;
+    margin-right: 10%;}
+  .titulo-hacemos {
+    font-size: 13px;}
+  .row-contacto-inner {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;}
+  .info-wrap p {
+    font-size: 13px;}
+  .btn-form {
+    left: 62%;}
+  .quienes-somos-title {
+    left: 128px;
+    top: 70px;
+    position: absolute;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: white;}
+  .frase2-s {
+    width: 495px;}
+  .icono-card-svcio {
+    height: 70px;
+    top: 20px;}
+  .titulo-card2 {
+    top: 112px;
+    left: 15px;}
+  .texto-card2 {
+    top: 165px;
+    left: 15px;
+    width: 190px;}
+  .mockup-mkt {
+    top: 997px;
+    width: 85%;
+    left: -20%;}
+  .textos-mkt {
+    position: relative;
+    width: 225px;
+    height: 531px;
+    left: 348px;
+    top: 68px;}
+  .titulo-mkt {
+    width: 150px;
+    font-size: 20px;
+    line-height: 25px;
+    left: 38px;
+    top: 42px;}
+  .svcios-mkt {
+    top: 0px;}
+  .titulo-social-media {
+    height: 50px;
+    position: relative;
+    top: -490px;
+    width: 148px;
+    left: 310px;}
+  .titulo-social-media p {
+    margin-bottom: 6px;}
+  .svcios-social {
+    margin-left: 5%;
+    top: -405px;
+    width: 90%;}
+  .col-socialmedia {
+    max-width: 32%;}
+  .col-socialmedia img {
+    height: 54px;
+    margin-left: 77px;
+    margin-bottom: 40px;}
+  .card-social--texto {
+    width: 100%;}
+  
+}
 
 @media (max-width: 414px){
   nav{
@@ -2099,6 +2293,7 @@ footer img{
     display: block;
     z-index: -1;}
   .titulo-que-hacemos {
+    top: 72px;
     font-weight: 700;
     position: absolute;
     height: 50px;
