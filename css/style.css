@@ -97,7 +97,7 @@ ul{
 
 @media (max-width: 1920px){
   .svcios-mkt-sm{
-    display: none;}
+    display: none!important;}
 }
 
 .burger div {
@@ -2039,8 +2039,11 @@ footer img{
     position: relative;
     top: -34px;
     height: 610px;
-    display: block;}
+    display: block!important;}
+  .card-mkt{
+    max-width: 80%;}
   .card-mkt img {
+    margin-left: 0px;
     height: 56px;
     margin-bottom: 12px;
     margin-left: 102px;}
@@ -2513,6 +2516,7 @@ footer img{
   .textos-mkt{
     left: -15px;}
   .svcios-mkt-sm {
+    display: block;
     left: -15px;}
   .titulo-social-media {
     top: -810px;}
@@ -2720,7 +2724,10 @@ footer img{
     top: -34px;
     height: 610px;
     display: block;}
+    .card-mkt{
+      max-width: 80%;}
     .card-mkt img {
+      margin-left: 0px;
       height: 56px;
       margin-bottom: 12px;
       margin-left: 102px;}
@@ -2850,6 +2857,7 @@ footer img{
     line-height: 15px;
     text-align: initial;}
   .card-mkt {
+    max-width: 80%;
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -3195,4 +3203,166 @@ footer img{
     height: 1px;
     left: 0px;
     width: 41px;}
+}
+
+@media (max-width: 320px){
+  .frase1 {
+    top: 34px;
+    font-size: 18px;}
+  .texto1{
+    top: 65px;}
+  .cards-inicio {
+    width: 292px;
+    left: 14px;}
+  .icono-card {
+    left: 118px;
+    top: 15px;}
+  .titulo-card {
+    top: 80px;}
+  .texto-card {
+    left: 16px;
+    width: 260px;}
+  .que-hacemos {
+    height: 100px;}
+  .linea2 {
+    top: 86px;}
+  .icono-hacemos img {
+    width: 50px;}
+  .row-iconos-hacemos {
+    height: 370px;}
+  .titulo-hacemos{
+    margin-top: 5px;}
+  .wsp-button{
+    left: 71px;}
+  .btn-form {
+    left: 65px;}
+  .contacto-footer {
+    left: -18px;}
+  .logo-footer {
+    left: 119px;}
+  .frase1-s {
+    left: 28%;
+    top: 30px;}
+  .texto1-s{
+    top: 60px;}
+  .icono-card-svcio {
+    height: 55px;
+    top: 15px;}
+  .titulo-card2 {
+    top: 84px;}
+  .texto-card2 {
+    top: 120px;
+    left: 16px;}
+  .mockup-mkt{
+    top: 900px;}
+  .titulo-mkt{
+    font-size: 14px;
+    line-height: 16px;
+    left: 52px;}
+  .textos-mkt {
+    width: 253px;
+    height: 355px;
+    left: 33.5px;
+    top: 70px;}
+  .titulo-social-media {
+    top: -690px;}
+  .linea3 {
+    left: 139.5px;}
+  .svcios-social {
+    margin-left: 22.5px;
+    top: -673px;
+    height: 632px;
+    width: 275px;}
+  .card-social--titulo {
+    text-align: center;
+    margin-left: 39.5px;
+    width: 190px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;}
+  .card-social--texto {
+    margin-bottom: 20px;
+    text-align: initial;
+    width: 275px;
+    height: 94px;
+    font-size: 11px;
+    line-height: 14px;}
+  .card-social--titulo1 {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;}
+  .card-mkt img {
+    margin-left: 0px;}
+  .titulo-conocenos {
+    height: 95px;}
+  .foto-carla-sm {
+    height: 110px;
+    width: 110px;
+    top: 122px;
+    left: 38px;}
+  .fondo-conocenos1, .fondo-conocenos2 {
+    object-fit: fill;
+    height: auto;
+    max-width: 100vw;}
+  .nombre1-sm {
+    font-weight: 500;
+    left: 38px;
+    position: absolute;
+    font-size: 10px;
+    color: #4f4f4f;
+    top: 235px;}
+  .cofunder1 {
+    color: #939393;
+    top: 248px;
+    left: 38px;
+    position: absolute;
+    font-size: 8px;
+    text-transform: uppercase;}
+  .texto-conocenos-sm1 {
+    left: 156px;
+    top: 132px;
+    width: 155px;
+    font-size: 10px;
+    line-height: 12px;
+    position: absolute;
+    color: white;}
+  .btn-in {
+    left: 296px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 224px;}
+  .foto-delfina-sm {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top: 321px;
+    left: 172px;}
+  .nombre2-sm {
+    font-weight: 500;
+    left: 217px;
+    font-size: 10px;
+    top: 434px;}
+  .cofunder2 {
+    top: 446px;
+    left: 236px;
+    font-size: 8px;}
+  .texto-conocenos-sm2 {
+    top: 323px;
+    font-size: 10px;
+    width: 155px;
+    line-height: 12px;
+    left: 12px;}
+  .btn-in2 {
+    left: 12px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 422px;}
+  .btn-in img, .btn-in2 img {
+    height: 14px;
+    width: 14px;
+    position: absolute;}
 }
