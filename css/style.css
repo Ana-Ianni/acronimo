@@ -282,6 +282,7 @@ ul{
   padding: 0;}
 
 .icono-card{
+  height: 112px;
   position: relative;
   top: 67px}
 
@@ -456,22 +457,22 @@ ul{
   height: 3px;
   background-color: #E94D35;}
 
-.row-iconos-hacemos{
+.row-iconos-hacemos {
   padding-top: 5%;
-  width: 60%;
+  width: 70%;
   position: relative;
   height: 480px;
   align-items: baseline;
   justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;}
+  margin-left: 15%;
+  margin-right: 15%;}
 
 .icono-hacemos{
   text-align: center;}
 
-.titulo-hacemos{
-  margin-left: 2.1em;
-  max-width: 269px;
+.titulo-hacemos {
+  margin-left: 0;
+  max-width: 100%;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
@@ -481,6 +482,7 @@ ul{
 .icono-card-svcio{
   position: relative;
   top: 35px;
+  height: 142px;
   /*left: 134px;*/}
   
 .titulo-card2{
@@ -686,6 +688,50 @@ ul{
   font-size: 45px;
 }
 
+.row-webDev{
+  height: 558px;}
+
+.col-dev1, .col-dev2{
+  padding: 0;
+  height: 100%;}
+
+.col-dev1 p{
+  left: 36%;
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  top: -62%;}
+
+.fondo-dev{
+  z-index: -1;
+  position: relative;}
+
+.linea-dev{
+  background-color: #F7A837;
+  height: 3px;
+  width: 82px;
+  left: 36%;
+  position: relative;
+  top: -64%;}
+
+.iconoDev{
+  left: 92%;
+  position: relative;
+  top: -83%;}
+
+.geometrico{
+  position: relative;
+  top: -5%;
+  left: 70%;}
+
+.col-dev2 p{
+  font-size: 16px;
+  width: 370px;
+  left: 27%;
+  position: relative;
+  top: -4%;}
+
 .fade{
   transition: all 1s;
   opacity: 0;}
@@ -763,6 +809,10 @@ ul{
 
 .logo-footer{
   display: none;
+}
+
+.footer-flex{
+  display: flex;
 }
 
 .conocenos-sm{
@@ -1054,6 +1104,7 @@ footer img{
     margin-left: 0%;
     width: 75%;}
   .social-media-fondo{
+    object-fit: cover;
     height: 795px;}
   .svcios-social {
     margin-left: 12.5%;
@@ -1064,6 +1115,13 @@ footer img{
     text-align: center;
     height: 75px;
     width: 100%;}
+  .iconoDev {
+    left: 101%;
+    position: relative;
+    top: -83%;
+    height: 160px;}
+  .col-dev2 p {
+    left: 30%;}
 }
 
 @media (max-width: 1650px){
@@ -1120,6 +1178,10 @@ footer img{
   .textos-mkt {
     left: 1075px;
     top: 1730px;}
+  .fondo-dev {
+    left: -7%;}
+  .iconoDev {
+    height: 150px;}
 }
 
 @media (max-width: 1600px){
@@ -1158,6 +1220,8 @@ footer img{
   .quienes-somos-title {
     left: 252px;
     top: 116px;}
+  .fondo-dev {
+    left: -10%;}
 }
 
 @media (max-width: 1550px){
@@ -1219,6 +1283,16 @@ footer img{
     width: 350px;}
   .col-socialmedia {
     max-width: 32%;}
+  .iconoDev {
+    left: 106%;
+  height: 140px;}
+  .geometrico{
+    height: 180px;}
+  .col-dev2 p {
+    font-size: 16px;
+    width: 355px;
+    left: 38%;
+    top: 3%;}
 }
 
 @media (max-width: 1500px){
@@ -1264,6 +1338,8 @@ footer img{
   .quienes-somos-titulo {
     left: 183px;
     top: 85px;}
+  .fondo-dev {
+    left: -13%;}
 }
 
 @media (max-width: 1400px){
@@ -1323,6 +1399,18 @@ footer img{
   .svcios-social {
     margin-left: 10%;
     width: 80%;}
+  .fondo-dev {
+    left: -26%;}
+  .linea-dev, .col-dev1 p {
+    left: 30%;}
+  .iconoDev {
+    left: 103%;
+    height: 130px;}
+  .col-dev2 p {
+    font-size: 15px;
+    width: 320px;
+    left: 38%;
+    top: 10%;}
   }
 
 @media (max-width: 1300px){
@@ -1412,6 +1500,7 @@ footer img{
   .row-social-media {
     height: 700px;}
   .social-media-fondo {
+    object-fit: cover;
     height: 700px;}
   .titulo-social-media {
     top: -630px;}
@@ -1421,6 +1510,17 @@ footer img{
     height: 78px;}
   .card-social--texto {
     width: 300px;}
+  .row-webDev {
+    height: 500px;}
+  .fondo-dev {
+    height: 500px;
+    left: -22%;}
+  .iconoDev {
+    left: 101%;
+    height: 120px;}
+  .col-dev2 p {
+    left: 36%;
+    top: 6%;}
 }
 
 @media (max-width: 1200px){
@@ -1529,6 +1629,17 @@ footer img{
     height: 80px;}
   .card-mkt--texto {
     font-size: 15px}
+  .row-webDev {
+    height: 450px;}
+  .fondo-dev {
+    height: 450px;}
+  .linea-dev{
+    top: -65%;}
+  .iconoDev {
+    left: 98%;
+    height: 110px;}
+  .geometrico{
+    height: 130px;}
 }
 
 @media (max-width: 1100px){
@@ -1619,6 +1730,19 @@ footer img{
   .card-social--texto {
     width: 265px;
     font-size: 14px;}
+  .row-webDev {
+    height: 400px;}
+  .fondo-dev {
+    height: 400px;}
+  .col-dev1 p {
+    font-size: 35px;}
+  .iconoDev {
+    left: 95%;
+    height: 100px;}
+  .geometrico{
+    height: 120px;}
+  .col-dev2 p {
+    left: 30%;}
 }
 
 @media (max-width: 990px){
@@ -1925,8 +2049,21 @@ footer img{
   .frase2-s {
     width: 460px;}
   .svcios-mkt-sm{
-    display: none;
-  }
+    display: none;}
+  .row-webDev {
+    height: 350px;}
+  .fondo-dev {
+    height: 350px;}
+  .col-dev1 p {
+    font-size: 24px;}
+  .iconoDev {
+    left: 90%;}
+  .geometrico{
+    height: 100px;}
+  .col-dev2 p {
+    font-size: 12px;
+    width: 250px;
+    top: 4%;}
 }
 
 @media (max-width: 768px){
@@ -2039,7 +2176,8 @@ footer img{
     left: 15px;
     width: 190px;}
   .mockup-mkt {
-    top: 997px;
+    height: auto;
+    top: 1003px;
     width: 85%;
     left: -20%;}
   .textos-mkt {
@@ -2055,6 +2193,7 @@ footer img{
     left: 38px;
     top: 42px;}
   .svcios-mkt {
+    display: flex;
     top: 0px;}
   .titulo-social-media {
     height: 50px;
@@ -2076,7 +2215,16 @@ footer img{
     margin-bottom: 40px;}
   .card-social--texto {
     width: 100%;}
-  
+  .row-webDev {
+    height: 320px;}
+  .fondo-dev {
+    height: 320px;
+    left: -40%;}
+  .iconoDev {
+    left: 92%;
+    height: 90px;}
+  .geometrico{    
+    height: 90px;}
 }
 
 @media (max-width: 414px){
@@ -2206,7 +2354,8 @@ footer img{
   .row-mkt {
     height: 710px;}
   .mockup-mkt {
-    top: 983px;
+    height: auto;
+    top: 1139px;
     width: 95%;
     left: -50px;}
   .titulo-mkt {
@@ -2287,7 +2436,9 @@ footer img{
     display: none!important;}
   .que-hacemos{
     top: -75px}
-  .bottom-inicio{
+  .bottom-inicio {
+    object-fit: cover;
+    height: 700px;
     width: 100vw;
     display: block;
     z-index: -1;}
@@ -2314,11 +2465,11 @@ footer img{
     align-items: baseline;
     padding-top: 0px;
     width: 100%;
-    height: 400px;
+    height: 600px;
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
-    top: -60px;}
+    top: -50px;}
   .titulo-hacemos {
     margin-right: 0px;
     margin-left: 95px;
@@ -2374,7 +2525,7 @@ footer img{
     height: 221px;
     width: 260px;}
   .card-mkt--titulo {
-    text-align: start;
+    text-align: center;
     position: relative;
     font-size: 14px;
     line-height: 18px;
@@ -2392,6 +2543,7 @@ footer img{
     width: 100vw;
     display: block;}
   .row-social-media{
+    top: -80px;
     height: 844px;}
   .titulo-social-media {
     text-align: center;
@@ -2670,6 +2822,46 @@ footer img{
     height: 1px;
     left: 0px;
     width: 41px;}
+  .row-webDev {
+    background-color: #F6F6F6;
+    height: auto;}
+  .fondo-dev {
+    height: auto;
+    z-index: 0;
+    width: 300px;
+    left: 0%;}
+  .col-dev1 p {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    top: -105px;}
+  .linea-dev {
+    height: 1px;
+    width: 41px;
+    left: 45%;
+    top: -120px;}
+  .iconoDev {
+    left: 46%;
+    position: relative;
+    top: -65px;
+    height: 60px;}
+  .col-dev1{
+    padding: 0;
+    height: 160px;}
+  .geometrico {
+    height: 70px;
+    position: relative;
+    top: -57.5%;
+    left: 82%;}
+  .col-dev2 p {
+    font-size: 12px;
+    width: 75%;
+    left: 12.5%;
+    position: relative;
+    top: 0%;}
+  .col-dev2{
+    height: 280px;}
 }
 
 @media (max-width: 375px){
@@ -2695,7 +2887,7 @@ footer img{
   .conocenos-lg{
     display: none;}
   .frase1-s{
-    top: 76px;
+    top: 35px;
     left: 27.5%;}
   .texto1-s{
     top: 70px;
@@ -2703,7 +2895,7 @@ footer img{
   .texto-card2{
     left: 20px;}
   .mockup-mkt {
-    top: 947px;}
+    top: 1114px;}
   .titulo-mkt{
     left: 55px;
     top: 15px;}
@@ -2711,7 +2903,7 @@ footer img{
     left: -15px;}
   .svcios-mkt-sm {
     display: block;
-    left: -15px;}
+    left: 0px;}
   .titulo-social-media {
     top: -810px;}
   .linea3 {
@@ -2761,6 +2953,10 @@ footer img{
     left: 14px;}
   .btn-in2 {
     top: 460px;}
+  .card-mkt{
+    left: 57.5px;}
+  .iconoDev {
+    left: 43%;}
 }
 
 @media (max-width: 360px){
@@ -2891,7 +3087,7 @@ footer img{
   .mockup-mkt {
     width: 95%;
     left: -12%;
-    top: 937px;
+    top: 1105px;
     position: absolute;}
   .titulo-mkt {
     width: 80px;
@@ -2917,7 +3113,8 @@ footer img{
     position: relative;
     top: -34px;
     height: 610px;
-    display: block;}
+    display: block;
+    left: 0px;}
     .card-mkt{
       max-width: 80%;}
     .card-mkt img {
@@ -2994,9 +3191,9 @@ footer img{
     height: 56px!important;}
   .row-iconos-hacemos {
     align-items: baseline;
-    padding-top: 0px;
+    padding-top: 20px;
     width: 100%;
-    height: 400px;
+    height: 550px;
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
@@ -3418,12 +3615,20 @@ footer img{
   .que-hacemos {
     height: 100px;}
   .linea2 {
-    top: 86px;}
+    top: 92px;}
   .icono-hacemos img {
     width: 50px;}
   .row-iconos-hacemos {
-    height: 370px;}
+    align-items: baseline;
+    padding-top: 10px;
+    width: 100%;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    top: -60px;}
   .titulo-hacemos{
+    margin-left: 46px;
     margin-top: 5px;}
   .wsp-button{
     left: 71px;}
@@ -3447,7 +3652,7 @@ footer img{
     top: 120px;
     left: 16px;}
   .mockup-mkt{
-    top: 900px;}
+    top: 1079px;}
   .titulo-mkt{
     font-size: 14px;
     line-height: 16px;
@@ -3486,6 +3691,8 @@ footer img{
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 10px;}
+  .card-mkt{
+    left: 30px;}
   .card-mkt img {
     margin-left: 0px;}
   .titulo-conocenos {
@@ -3558,4 +3765,8 @@ footer img{
     height: 14px;
     width: 14px;
     position: absolute;}
+  .fondo-dev {
+    left: -12%;}
+  .row-social-media {
+    height: 750px;}
 }
