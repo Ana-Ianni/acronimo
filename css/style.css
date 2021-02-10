@@ -28,6 +28,10 @@ html {
   overflow-x: hidden;
   max-width: 100vw;}
 
+body{
+  overflow-y: scroll;
+  max-width: 100%!important;;}
+
 nav {
   z-index: 99;
   position: fixed;
@@ -89,6 +93,10 @@ ul{
 
 .bottom-inicio{
   display: none;
+}
+
+.texto1-s{
+    left: -6%;
 }
 
 .icono-hacemos-sm{
@@ -213,14 +221,16 @@ ul{
   object-fit: cover;
   top: 72px}
 
-.cont-inicio{
-  position: relative;
-  top: 72px;}
+  .cont-inicio {
+    box-sizing: border-box;
+    padding-top: 72px;
+    position: absolute;
+    top: 0px;}
 
 .frase1{
-  position: absolute;
+  position: relative;
   left: 16.8%;
-  top: 215px;
+  top: -495px;
   font-weight: bold;
   font-size: 70px;
   line-height: 91px;
@@ -232,9 +242,9 @@ ul{
   color: #F7A837;}
 
 .texto1{
-    position: absolute;
-    left: 16.8%;
-    top: 355px;
+    position: relative;
+    left: -14.8%;
+    top: -340px;
     width: 531px;
     font-style: normal;
     font-weight: normal;
@@ -251,7 +261,7 @@ ul{
   text-align: center;
   max-width: 670px;
   position: relative;
-  top: 110px;
+  top: 0px;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -262,7 +272,7 @@ ul{
   position: absolute;
   width: 92px;
   height: 3px;
-  top: 900px;
+  top: 973px;
   background: #F7A837;}
 
 .cards-inicio{
@@ -559,11 +569,11 @@ ul{
   color: white;}
 
 .textos-mkt{
-  position: absolute;
+  position: relative;
   width: 372px;
   height: 531px;
-  left: 1148px;
-  top: 1758px;}
+  left: 1050px;
+  top: 100px;}
 
 .subtitulo-mkt{
   font-weight: bold;
@@ -579,8 +589,8 @@ ul{
   color: #4F4F4F;}
 
 .svcios-mkt{
-  margin-left: 6%;
-  top: 912px;
+  margin-left: 17.5%;
+  top: 60px;
   position: relative;
   height: 311px;
   width: 65%;
@@ -704,6 +714,7 @@ ul{
   top: -62%;}
 
 .fondo-dev{
+  max-height: 100%;
   z-index: -1;
   position: relative;}
 
@@ -716,7 +727,7 @@ ul{
   top: -64%;}
 
 .iconoDev{
-  left: 92%;
+  left: 82%;
   position: relative;
   top: -83%;}
 
@@ -732,12 +743,12 @@ ul{
   position: relative;
   top: -4%;}
 
-.fade{
-  transition: all 1s;
-  opacity: 0;}
-
-.fade-active{
+.section{
   opacity: 1;
+  transition: opacity 1.25s ease;}
+
+.hidden{
+  opacity: 0;
 }
 
 .row-contacto{
@@ -942,6 +953,11 @@ ul{
   line-height: 14px;
   left: 16px;}
 
+.svciosLink:hover{
+  text-decoration: none;
+}
+
+
 .btn-in2{
   left: 16px;
   height: 16px;
@@ -1047,9 +1063,11 @@ footer img{
 
 @media (max-width: 1850px){
   .frase1{
-    top: 208px;}
+    top: -480px;}
+  .texto1{
+    left: -15.8%;}
   .linea1{
-    top: 860px;}
+    top: 948px;}
   .cards-inicio{
     left: 15.8%;}
   .quienes-somos-titulo{
@@ -1064,15 +1082,22 @@ footer img{
     left: 940px;}
   .row-social-media {
     height: 795px;}
+  .texto1-s{
+    left: -7%;}
   }
 
 @media (max-width: 1750px){
+  .texto1-s {
+    left: -8%;}
   .frase1 {
-    top: 192px;}
+    top: -455px;}
+  .texto1{
+    left: -17.5%;
+    top: -315px;}
   .row-frase-portada{
     height: 300px;}
   .linea1 {
-    top: 825px;}
+    top: 910px;}
   .cards-inicio {
     width: 75%;
     justify-content: space-around;
@@ -1101,7 +1126,7 @@ footer img{
   .cofounder2 {
     left: 1065px;}
   .svcios-mkt {
-    margin-left: 0%;
+    margin-left: 12.5%;
     width: 75%;}
   .social-media-fondo{
     object-fit: cover;
@@ -1116,7 +1141,7 @@ footer img{
     height: 75px;
     width: 100%;}
   .iconoDev {
-    left: 101%;
+    left: 90%;
     position: relative;
     top: -83%;
     height: 160px;}
@@ -1125,12 +1150,15 @@ footer img{
 }
 
 @media (max-width: 1650px){
+  .texto1-s{
+    left: -10%;}
   .frase1 {
-    top: 178px;}
+    top: -435px;}
   .texto1{
-    top: 320px;}
+    top: -300px;
+    left: -19.5%;}
   .linea1 {
-    top: 785px;}
+    top: 875px;}
   .card{
     max-width: 32%;}
   .quienes-somos-titulo {
@@ -1176,8 +1204,8 @@ footer img{
   .titulo-mkt{
     left: 190px;}
   .textos-mkt {
-    left: 1075px;
-    top: 1730px;}
+    left: 875px;
+    top: 75px;}
   .fondo-dev {
     left: -7%;}
   .iconoDev {
@@ -1185,12 +1213,15 @@ footer img{
 }
 
 @media (max-width: 1600px){
+  .texto1-s{
+    left: -17%!important}
   .frase1 {
-    top: 170px;}
+    top: -420px;}
   .texto1 {
-    top: 310px;}
+    top: -290px;
+    left: -21%;}
   .linea1 {
-    top: 770px;}
+    top: 860px;}
   .quienes-somos-titulo {
     left: 212px;
     top: 74px;}
@@ -1226,9 +1257,9 @@ footer img{
 
 @media (max-width: 1550px){
   .frase1 {
-    top: 164px;}
+    top: -410px;}
   .linea1 {
-    top: 750px;}
+    top: 833px;}
   .texto-card {
     left: 25px;
     width: 325px;}
@@ -1277,25 +1308,27 @@ footer img{
   .titulo-mkt{
     left: 197px;}
   .textos-mkt {
-    left: 1020px;
-    top: 1620px;}
+    left: 800px;
+    top: 90px;}
   .card-social--texto {
     width: 350px;}
   .col-socialmedia {
     max-width: 32%;}
   .iconoDev {
-    left: 106%;
+    left: 93%;
   height: 140px;}
   .geometrico{
     height: 180px;}
   .col-dev2 p {
     font-size: 16px;
     width: 355px;
-    left: 38%;
+    left: 30%;
     top: 3%;}
 }
 
 @media (max-width: 1500px){
+  .texto1-s{
+    left: -10.5%;}
   .row-contacto-inner {
     width: 70%;
     margin-left: 15%;
@@ -1306,12 +1339,13 @@ footer img{
     margin-left: 15%;
     margin-right: 15%;}
   .frase1 {
-    top: 162px;
+    top: -400px;
     font-size: 65px;}
   .texto1 {
-    top: 290px;}
+    top: -280px;
+    left: -20.5%;}
   .linea1 {
-    top: 730px;}
+    top: 816px;}
   .cards-inicio {
     width: 80%;
     left: 10%;}
@@ -1343,15 +1377,18 @@ footer img{
 }
 
 @media (max-width: 1400px){
+  .texto1-s{
+    left: -11%;}
   .frase1 {
-    top: 145px;
+    top: -377px;
     font-size: 62px;}
   .texto1 {
-    top: 260px;
+    top: -260px;
+    left: -21%;
     font-size: 28px;
     width: 500px;}
   .linea1 {
-    top: 690px;}
+    top: 778px;}
   .texto-card {
     left: 25px;
     font-size: 15px;}
@@ -1394,13 +1431,13 @@ footer img{
   .titulo-mkt {
     left: 113px;}
   .textos-mkt {
-    left: 920px;
-    top: 1550px;}
+    left: 720px;
+    top: 150px;}
   .svcios-social {
     margin-left: 10%;
     width: 80%;}
   .fondo-dev {
-    left: -26%;}
+    left: -21%;}
   .linea-dev, .col-dev1 p {
     left: 30%;}
   .iconoDev {
@@ -1409,21 +1446,24 @@ footer img{
   .col-dev2 p {
     font-size: 15px;
     width: 320px;
-    left: 38%;
-    top: 10%;}
+    left: 29%;
+    top: 4%;}
   }
 
 @media (max-width: 1300px){
+  .texto1-s{
+    left: -10%;}
   .frase1 {
-    top: 133px;
+    top: -352px;
     font-size: 55px;}
   .texto1 {
-    top: 235px;
+    top: -235px;
+    left: -19.5%;
     font-size: 25px;
     width: 445px;
     line-height: 30px;}
   .linea1 {
-    top: 650px;}
+    top: 712px;}
   .cards-inicio {
     width: 90%;
     left: 5%;
@@ -1482,15 +1522,15 @@ footer img{
     font-size: 22px;
     line-height: 28px;}
   .textos-mkt {
-    left: 800px;
-    top: 1410px;
+    left: 600px;
+    top: 90px;
     width: 358px;}
   .row-mkt {
     height: 1200px;}
   .svcios-mkt {
-    margin-left: -8%;
+    margin-left: 10%;
     width: 80%;
-    top: 750px;}
+    top: 20px;}
   .card-mkt {
     max-width: 32%;}
   .svcios-mkt-sm{
@@ -1514,28 +1554,31 @@ footer img{
     height: 500px;}
   .fondo-dev {
     height: 500px;
-    left: -22%;}
+    left: -15%;}
   .iconoDev {
-    left: 101%;
+    left: 95%;
     height: 120px;}
   .col-dev2 p {
-    left: 36%;
-    top: 6%;}
+    left: 30%;
+    top: 2%;}
 }
 
 @media (max-width: 1200px){
+  .texto1-s{
+    left: -9.5%;}
   .frase1 {
-    top: 118px;
+    top: -324px;
     font-size: 50px;}
   .texto1 {
-    top: 225px;
+    top: -225px;
+    left: -19%;
     font-size: 23px;
     width: 400px;
     line-height: 27px;}
   .frase2{
     font-size: 30px;}
   .linea1 {
-    top: 608px;}
+    top: 660px;}
   .texto-card {
     width: 300px;
     font-size: 14px;}
@@ -1611,8 +1654,8 @@ footer img{
     left: 128px;
     top: 40px;}
   .textos-mkt {
-    left: 754px;
-    top: 1410px;
+    left: 600px;
+    top: 80px;
     width: 340px;}
   .subtitulo-mkt {
     font-size: 20px;
@@ -1620,9 +1663,9 @@ footer img{
   .texto-mkt {
     font-size: 13px;}
   .svcios-mkt {
-    margin-left: -8%;
+    margin-left: 10%;
     width: 80%;
-    top: 730px;}
+    top: 30px;}
   .card-mkt img {
     margin-bottom: 30px;
     margin-left: 70px;
@@ -1636,18 +1679,20 @@ footer img{
   .linea-dev{
     top: -65%;}
   .iconoDev {
-    left: 98%;
+    left: 92%;
     height: 110px;}
   .geometrico{
     height: 130px;}
 }
 
 @media (max-width: 1100px){
+  .frase2-s{
+    width: 50%;}
   .frase1 {
-    top: 103px;
+    top: -306px;
     font-size: 48px;}
   .linea1 {
-    top: 570px}
+    top: 625px;}
   .icono-card {
     top: 50px;
     height: 90px;}
@@ -1658,7 +1703,10 @@ footer img{
     width: 275px;
     top: 240px;}
   .row-frase-portada {
-    height: 280px;}
+    height: 130px;}
+  .texto1 {
+    top: -200px;
+    left: -20.5%;}
   .quienes-somos {
     height: 520px;}
   .quienes-somos-titulo {
@@ -1708,12 +1756,12 @@ footer img{
     font-size: 14px;
     width: 255px;}
   .mockup-mkt {
-    left: -15%;}
+    left: -18%;}
   .titulo-mkt {
     left: 80px;}
   .textos-mkt {
-    left: 730px;
-    top: 1380px;}
+    left: 500px;
+    top: 80px;}
   .subtitulo-mkt {
     font-size: 18px;
     line-height: 18px;}
@@ -1737,12 +1785,12 @@ footer img{
   .col-dev1 p {
     font-size: 35px;}
   .iconoDev {
-    left: 95%;
+    left: 89%;
     height: 100px;}
   .geometrico{
     height: 120px;}
   .col-dev2 p {
-    left: 30%;}
+    left: 25%;}
 }
 
 @media (max-width: 990px){
@@ -1752,12 +1800,14 @@ footer img{
     height: 30vh;}
   .frase1{
     left: 104.5px;
-    top: 133px;
+    top: -300px;
     font-size: 40px;
     line-height: 50px;}
+  .linea2{
+    top: 133px;}
   .texto1 {
-    left: 104.5px;
-    top: 215px;
+    left: -24%;
+    top: -215px;
     width: 305px;
     font-size: 16px;
     line-height: 20px;}
@@ -1778,6 +1828,8 @@ footer img{
     margin-bottom: 17px;}
   .linea1{
     top: 115px;}
+  .texto1-s{
+    left: -15%;}
   .cards-inicio{
     position: relative;
     width: 888px;
@@ -1937,9 +1989,14 @@ footer img{
   .row-mkt {
     height: 883px;}
   .mockup-mkt {
-    top: 1144px;
+    top: 1200px;
     width: 85%;
-    left: -19%;}
+    left: -20%;}
+  .row-frase-portada-s{
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    height: 200px;}
   .titulo-mkt {
     width: 170px;
     height: 97px;
@@ -2038,16 +2095,14 @@ footer img{
     line-height: 20px;
     margin-bottom: 14px;}
   .frase2-s {
-    width: 480px;
+    width: 50%;
     position: absolute;}
   .linea1-svcio {
     position: relative;
-    top: 60px;
+    top: 105px;
     left: 0px;}
   .btn-form {
     left: 70%;}
-  .frase2-s {
-    width: 460px;}
   .svcios-mkt-sm{
     display: none;}
   .row-webDev {
@@ -2057,7 +2112,7 @@ footer img{
   .col-dev1 p {
     font-size: 24px;}
   .iconoDev {
-    left: 90%;}
+    left: 85%;}
   .geometrico{
     height: 100px;}
   .col-dev2 p {
@@ -2069,11 +2124,11 @@ footer img{
 @media (max-width: 768px){
   .frase1 {
     left: 108.5px;
-    top: 85px;
+    top: -221px;
     font-size: 37px;}
   .texto1 {
-    left: 108.5px;
-    top: 157px;}
+    left: -27%;
+    top: -145px;}
   .linea1 {
     top: 103px;}
   .cards-inicio {
@@ -2082,6 +2137,10 @@ footer img{
     height: 380px;}
   .card {
     max-width: 32%;}
+  .texto1-s{
+    left: -16%;}
+  .linea2 {
+    top: 100px;}
   .icono-card {
     left: 75.5px;
     width: 70px;
@@ -2177,7 +2236,7 @@ footer img{
     width: 190px;}
   .mockup-mkt {
     height: auto;
-    top: 1003px;
+    top: 1034px;
     width: 85%;
     left: -20%;}
   .textos-mkt {
@@ -2219,7 +2278,7 @@ footer img{
     height: 320px;}
   .fondo-dev {
     height: 320px;
-    left: -40%;}
+    left: -25%;}
   .iconoDev {
     left: 92%;
     height: 90px;}
@@ -2301,8 +2360,10 @@ footer img{
     width: 1px;
     background-color: #C0C0C0;}
   .cont-inicio {
-    position: relative;
-    top: 56px;}
+    position: absolute;
+    padding-top: 56px;
+    top: 0px;
+    box-sizing: border-box;}
   .portada{
     display: none;}
   .portada-sm{
@@ -2311,17 +2372,17 @@ footer img{
     object-fit: cover;
     width: 100vw;}
   .frase1{
-    position: absolute;
+    position: relative;
     left: 23.5%;
-    top: 45px;
+    top: -220px;
     font-size: 20px;
     line-height: 109%;
     color: #FCFAF9;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
   .texto1{
-    position: absolute;
-    left: 23.5%;
-    top: 80px;
+    position: relative;
+    left: -18.5%;
+    top: -178px;
     width: 157px;
     font-size: 13px;
     font-weight: 400;
@@ -2355,7 +2416,7 @@ footer img{
     height: 710px;}
   .mockup-mkt {
     height: auto;
-    top: 1139px;
+    top: 1196px;
     width: 95%;
     left: -50px;}
   .titulo-mkt {
@@ -2485,12 +2546,12 @@ footer img{
     margin-left: 16px;}
   .frase1-s{
     position: absolute;
-    left: 23.5%;
-    top: 38px;}
+    left: 27.5%;
+    top: 95px;}
   .texto1-s {
     position: absolute;
-    left: 23.5%;
-    top: 73px;
+    left: 27.5%!important;
+    top: 128px;
     width: 181px;}
   .frase2-s {
     width: 233px;}
@@ -2742,7 +2803,7 @@ footer img{
     height: auto;}
   .texto-conocenos-sm1 {
     left: 200px;
-    top: 170px;
+    top: 226px;
     width: 200px;
     font-size: 12px;}
     .btn-in {
@@ -2750,12 +2811,12 @@ footer img{
       height: 16px;
       width: 16px;
       position: absolute;
-      top: 280px;}
+      top: 345px;}
   .foto-carla-sm {
     position: absolute;
     height: 145px;
     width: 145px;
-    top: 158px;
+    top: 214px;
     left: 46px;
     filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
   .nombre1-sm {
@@ -2764,17 +2825,17 @@ footer img{
     position: absolute;
     font-size: 12px;
     color: #4f4f4f;
-    top: 306px;}
+    top: 362px;}
   .cofunder1 {
     color: #939393;
-    top: 320px;
+    top: 376px;
     left: 46px;
     position: absolute;
     font-size: 10px;
     text-transform: uppercase;}
   .texto-conocenos-sm2 {
     color: #ffffff;
-    top: 390px;
+    top: 438px;
     font-size: 12px;
     width: 190px;
     position: absolute;
@@ -2785,12 +2846,12 @@ footer img{
     height: 16px;
     width: 16px;
     position: absolute;
-    top: 504px;}
+    top: 564px;}
   .foto-delfina-sm {
     position: absolute;
     height: 145px;
     width: 145px;
-    top: 379px;
+    top: 435px;
     left: 221px;
     filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
   .nombre2-sm {
@@ -2799,10 +2860,10 @@ footer img{
     position: absolute;
     font-size: 12px;
     color: #4f4f4f;
-    top: 526px;}
+    top: 582px;}
     .cofunder2 {
       color: #939393;
-      top: 541px;
+      top: 595px;
       left: 308px;
       position: absolute;
       font-size: 10px;
@@ -2866,9 +2927,10 @@ footer img{
 
 @media (max-width: 375px){
   .frase1{
-    top: 42px;}
+    top: -202px;}
   .texto1{
-    top: 76px;}
+    left: -24%;
+    top: -160px;}
   .icono-card {
     left: 122px;}
   .texto-card {
@@ -2887,15 +2949,15 @@ footer img{
   .conocenos-lg{
     display: none;}
   .frase1-s{
-    top: 35px;
+    top: 90px;
     left: 27.5%;}
   .texto1-s{
-    top: 70px;
+    top: 125px;
     left: 27.5%;}
   .texto-card2{
     left: 20px;}
   .mockup-mkt {
-    top: 1114px;}
+    top: 1170px;}
   .titulo-mkt{
     left: 55px;
     top: 15px;}
@@ -2910,49 +2972,45 @@ footer img{
     left: 167px;}
   .svcios-social {
     top: -775px;}
-  .frase1-es{
-    top: 34px;}
-  .texto1-es{
-    top: 68px;}
   .titulo-conocenos{
     height: 130px;}
   .foto-carla-sm{
     height: 130px;
     width: 130px;
-    top: 144px;
+    top: 202px;
     left: 44px;}
   .nombre1-sm {
     left: 44px;
-    top: 278px;}
+    top: 335px;}
   .cofunder1 {
-    top: 292px;
+    top: 348px;
     left: 44px;}
   .texto-conocenos-sm1 {
     left: 184px;
-    top: 153px;
+    top: 215px;
     width: 180px;
     font-size: 11px;}
   .btn-in {
     left: 345px;
-    top: 259px;}
+    top: 318px;}
   .foto-delfina-sm {
     height: 130px;
     width: 130px;
-    top: 345px;
+    top: 402px;
     left: 200px;}
   .nombre2-sm {
     left: 253px;
-    top: 478px;}
+    top: 535px;}
   .cofunder2 {
-    top: 492px;
+    top: 548px;
     left: 274px;}
   .texto-conocenos-sm2 {
-    top: 354px;
+    top: 405px;
     font-size: 11px;
     width: 180px;
     left: 14px;}
   .btn-in2 {
-    top: 460px;}
+    top: 518px;}
   .card-mkt{
     left: 57.5px;}
   .iconoDev {
@@ -3032,9 +3090,6 @@ footer img{
     height: 14px;
     width: 1px;
     background-color: #C0C0C0;}
-  .cont-inicio {
-    position: relative;
-    top: 56px;}
   .portada{
     display: none;}
   .portada-sm{
@@ -3042,17 +3097,17 @@ footer img{
     top: 56px;
     object-fit: cover;}
   .frase1{
-    position: absolute;
+    position: relative;
     left: 23.5%;
-    top: 38px;
+    top: -195px;
     font-size: 20px;
     line-height: 109%;
     color: #FCFAF9;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);}
   .texto1{
-    position: absolute;
-    left: 23.5%;
-    top: 73px;
+    position: relative;
+    left: -24%;
+    top: -156px;
     width: 157px;
     font-size: 13px;
     font-weight: 400;
@@ -3087,7 +3142,7 @@ footer img{
   .mockup-mkt {
     width: 95%;
     left: -12%;
-    top: 1105px;
+    top: 1182px;
     position: absolute;}
   .titulo-mkt {
     width: 80px;
@@ -3212,13 +3267,13 @@ footer img{
   .mkt-sm{
     margin-left: 16px;}
     .frase1-s {
-      position: absolute;
+      position: relative;
       left: 28%;
-      top: 32px;}
+      top: -203px;}
   .texto1-s {
     position: absolute;
     left: 28%;
-    top: 73px;
+    top: 125px;
     width: 181px;}
   .frase2-s {
     width: 233px;}
@@ -3490,12 +3545,12 @@ footer img{
     position: absolute;
     height: 129px;
     width: 129px;
-    top: 137px;
+    top: 195px;
     left: 36px;
     filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
   .texto-conocenos-sm1{
     left: 174px;
-    top: 151px;
+    top: 205px;
     width: 180px;
     font-size: 11px;
     line-height: 14px;
@@ -3507,10 +3562,10 @@ footer img{
     position: absolute;
     font-size: 12px;
     color: #4f4f4f;
-    top: 269px;}
+    top: 326px;}
   .cofunder1{
     color: #939393;
-    top: 283px;
+    top: 339px;
     left: 36px;
     position: absolute;
     font-size: 10px;
@@ -3520,7 +3575,7 @@ footer img{
     height: 16px;
     width: 16px;
     position: absolute;
-    top: 250px;}
+    top: 310px;}
   .btn-in img{
     height: 16px;
     width: 16px;
@@ -3533,7 +3588,7 @@ footer img{
     position: absolute;
     height: 129px;
     width: 129px;
-    top: 335px;
+    top: 392px;
     left: 195px;
     filter: drop-shadow(0px 1.41px 1.41px rgba(0, 0, 0, 0.25));}
   .nombre2-sm{
@@ -3542,17 +3597,17 @@ footer img{
     position: absolute;
     font-size: 12px;
     color: #4f4f4f;
-    top: 467px;}
+    top: 524px;}
   .cofunder2{
     color: #939393;
-    top: 481px;
+    top: 537px;
     left: 266px;
     position: absolute;
     font-size: 10px;
     text-transform: uppercase;}
   .texto-conocenos-sm2{
     color: #ffffff;
-    top: 345px;
+    top: 395px;
     font-size: 11px;
     width: 176px;
     position: absolute;
@@ -3563,7 +3618,7 @@ footer img{
     height: 16px;
     width: 16px;
     position: absolute;
-    top: 450px;}  
+    top: 508px;}  
   .btn-in2 img{
     height: 16px;
     width: 16px;
@@ -3597,10 +3652,11 @@ footer img{
 
 @media (max-width: 320px){
   .frase1 {
-    top: 34px;
+    top: -172px;
     font-size: 18px;}
   .texto1{
-    top: 65px;}
+    top: -140px;
+    left: -25%;}
   .cards-inicio {
     width: 292px;
     left: 14px;}
@@ -3640,9 +3696,10 @@ footer img{
     left: 119px;}
   .frase1-s {
     left: 28%;
-    top: 30px;}
+    top: -180px;}
   .texto1-s{
-    top: 60px;}
+    left: 28%;
+    top: 115px;}
   .icono-card-svcio {
     height: 55px;
     top: 15px;}
@@ -3652,7 +3709,7 @@ footer img{
     top: 120px;
     left: 16px;}
   .mockup-mkt{
-    top: 1079px;}
+    top: 1154px;}
   .titulo-mkt{
     font-size: 14px;
     line-height: 16px;
@@ -3700,7 +3757,7 @@ footer img{
   .foto-carla-sm {
     height: 110px;
     width: 110px;
-    top: 122px;
+    top: 180px;
     left: 38px;}
   .fondo-conocenos1, .fondo-conocenos2 {
     object-fit: fill;
@@ -3712,17 +3769,17 @@ footer img{
     position: absolute;
     font-size: 10px;
     color: #4f4f4f;
-    top: 235px;}
+    top: 293px;}
   .cofunder1 {
     color: #939393;
-    top: 248px;
+    top: 304px;
     left: 38px;
     position: absolute;
     font-size: 8px;
     text-transform: uppercase;}
   .texto-conocenos-sm1 {
     left: 156px;
-    top: 132px;
+    top: 185px;
     width: 155px;
     font-size: 10px;
     line-height: 12px;
@@ -3733,24 +3790,24 @@ footer img{
     height: 14px;
     width: 14px;
     position: absolute;
-    top: 224px;}
+    top: 280px;}
   .foto-delfina-sm {
     position: absolute;
     height: 110px;
     width: 110px;
-    top: 321px;
+    top: 378px;
     left: 172px;}
   .nombre2-sm {
     font-weight: 500;
     left: 217px;
     font-size: 10px;
-    top: 434px;}
+    top: 490px;}
   .cofunder2 {
-    top: 446px;
+    top: 502px;
     left: 236px;
     font-size: 8px;}
   .texto-conocenos-sm2 {
-    top: 323px;
+    top: 382px;
     font-size: 10px;
     width: 155px;
     line-height: 12px;
@@ -3760,7 +3817,7 @@ footer img{
     height: 14px;
     width: 14px;
     position: absolute;
-    top: 422px;}
+    top: 478px;}
   .btn-in img, .btn-in2 img {
     height: 14px;
     width: 14px;

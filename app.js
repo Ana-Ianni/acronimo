@@ -31,15 +31,33 @@ navSlide();
 
 // efecto opacidad
 
-$(window).on("load",function() {
-    $(window).scroll(function() {
-      var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-      $(".fade").each(function() {
-        var objectBottom = $(this).offset().top + $(this).outerHeight();
-        
-        if (objectBottom < windowBottom) {
-          if ($(this).css("opacity")==0) {$(this).fadeIn(1000);}
-        }
-      });
-    }).scroll();
-  });
+let firstHeading = document.getElementById("first-heading");
+
+var position = firstHeading.getBoundingClientRect()
+
+console.log(position.top);
+
+function isVisible(element) {
+    let elementBox = element.getBoundingClientRect();
+    let distanceFromTop = -100; 
+
+    if(elementBox.top - window.innerHeight < distanceFromTop) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function scanDocument() {
+    let sectionList = document.querySelectorAll('.hidden');
+    sectionList.forEach(function(section) {
+        if(isVisible(section)) {
+            section.classList.remove('hidden');
+        };
+    });
+
+}
+
+
+document.addEventListener("scroll", scanDocument);
+

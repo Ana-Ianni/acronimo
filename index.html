@@ -9,10 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" sizes="16×14" href="favicon.png">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <nav>
+    <nav class="nav">
         <div class="logo">
             <a href="index.html"><img src="multimedia/logo-nav.svg" alt="Logo Acrónimo"></a>
         </div>
@@ -38,17 +37,17 @@
     </nav>
 
     <div class="container cont-inicio">
-        <div class="row">
-            <img src="multimedia/portada-inicio.svg" alt="" class="portada">
-            <img src="multimedia/portada-in-sm.svg" alt="" class="portada-sm">
-            <p class="frase1">Despegá tu <span class="frase1-color">Marca.</span></p>
+        <div class="row section">
+            <img src="multimedia/portada-inicio.png" alt="" class="portada">
+            <img src="multimedia/portada-in-sm.png" alt="" class="portada-sm">
+            <p class="frase1" id="first-heading">Despegá tu <span class="frase1-color">Marca.</span></p>
             <p class="texto1">Brindamos soluciones de Relaciones Públicas y Marketing para hacer crecer tu negocio. </p>
         </div>
-        <div class="row row-frase-portada">
+        <div class="row row-frase-portada section hidden">
             <p class="frase2">Somos una agencia digital boutique</p>
             <div class="linea1"></div>
         </div>
-        <div class="row cards-inicio ">
+        <div class="row cards-inicio section hidden">
             <div class="col col-lg-4 col-md-4 col-12 card">
                 <img src="multimedia/card1.svg" alt="" class="icono-card">
                 <p class="titulo-card">Digital</p>
@@ -65,7 +64,7 @@
                 <p class="texto-card">El trabajo remoto llegó para quedarse y Acrónimo nació en este contexto; y fiel a su estilo se adapta a la coyuntura. Además, en estos tiempos en que  los límites geográficos no existen queremos llevar nuestras soluciones a cualquier parte del globo. </p>
             </div>
         </div>
-        <div class="row quienes-somos" id="conocenos">
+        <div class="row quienes-somos section hidden" id="conocenos">
             <img src="multimedia/inicio2.svg" alt="">
             <img src="multimedia/foto-carla.svg" alt="" class="foto1">
             <p class="quienes-somos-titulo">¿Quienes somos?</p>
@@ -83,34 +82,42 @@
                 <a href="https://www.linkedin.com/in/delfina-racchi/"><img src="multimedia/in-logo.svg" alt=""></a>
             </div>
         </div>
-        <div class="row que-hacemos">
+        <div class="row que-hacemos section hidden">
             <img src="multimedia/bottom-inicio.svg" alt="" class="bottom-inicio">
             <p class="titulo-que-hacemos">¿Qué hacemos?</p>
             <div class="linea2"></div>
         </div>
-        <div class="row row-iconos-hacemos">
+        <div class="row row-iconos-hacemos section hidden">
             <div class="col-lg-3 col-md-3 icono-hacemos">
-                <img src="multimedia/icono-hacemos1.svg" alt="" class="icono-hacemos-lg">
-                <img src="multimedia/icono-hacemos-sm1.svg" alt="" class="icono-hacemos-sm">
-                <p class="titulo-hacemos">Relaciones Públicas y Comunicación Institucional</p>
+                <a href="./servicios.html#relacionesPublicas" class="svciosLink">
+                    <img src="multimedia/icono-hacemos1.svg" alt="" class="icono-hacemos-lg">
+                    <img src="multimedia/icono-hacemos-sm1.svg" alt="" class="icono-hacemos-sm">
+                    <p class="titulo-hacemos">Relaciones Públicas y Comunicación Institucional</p>
+                </a>
             </div>
             <div class="col-lg-3 col-md-3 icono-hacemos">
-                <img src="multimedia/icono-hacemos2.svg" alt="" class="icono-hacemos-lg">
-                <img src="multimedia/icono-hacemos-sm2.svg" alt="" class="icono-hacemos-sm mkt-sm">
-                <p class="titulo-hacemos">Marketing Digital</p>
+                <a href="./servicios.html#marketingDigital" class="svciosLink">
+                    <img src="multimedia/icono-hacemos2.svg" alt="" class="icono-hacemos-lg">
+                    <img src="multimedia/icono-hacemos-sm2.svg" alt="" class="icono-hacemos-sm mkt-sm">
+                    <p class="titulo-hacemos">Marketing Digital</p>
+                </a>
             </div>
             <div class="col-lg-3 col-md-3 icono-hacemos">
-                <img src="multimedia/icono-hacemos3.svg" alt="" class="icono-hacemos-lg">
-                <img src="multimedia/icono-hacemos-sm3.svg" alt="" class="icono-hacemos-sm">
-                <p class="titulo-hacemos">Social Media</p>
+                <a href="./servicios.html#socialMedia" class="svciosLink">
+                    <img src="multimedia/icono-hacemos3.svg" alt="" class="icono-hacemos-lg">
+                    <img src="multimedia/icono-hacemos-sm3.svg" alt="" class="icono-hacemos-sm">
+                    <p class="titulo-hacemos">Social Media</p>
+                </a>
             </div>
             <div class="col-lg-3 col-md-3 icono-hacemos">
-                <img src="multimedia/icono-hacemos4.svg" alt="" class="icono-hacemos-lg">
-                <img src="multimedia/icono-hacemos-sm4.svg" alt="" class="icono-hacemos-sm">
-                <p class="titulo-hacemos">Desarrollo Web</p>
+                <a href="./servicios.html#webDev" class="svciosLink">
+                    <img src="multimedia/icono-hacemos4.svg" alt="" class="icono-hacemos-lg">
+                    <img src="multimedia/icono-hacemos-sm4.svg" alt="" class="icono-hacemos-sm">
+                    <p class="titulo-hacemos">Desarrollo Web</p>
+                </a>
             </div>
         </div>
-        <div class="row row-contacto" id="contacto">
+        <div class="row row-contacto section hidden" id="contacto">
             <div class="row row-contacto-inner">
                 <div class="col-lg-4 col-md-4 col-info">
                     <p class="contactanos">Contactanos</p>
@@ -148,7 +155,7 @@
             </div>
         </div>
         <footer>
-            <div class="contacto-footer">
+            <div class="contacto-footer section">
                 <div class="wrap-c info-contacto-sm">
                     <div class="info-wrap">
                         <img src="multimedia/logo-mail.svg" alt="">
@@ -175,6 +182,6 @@
             </div>
         </footer>
     </div>
-
+    <script src="app.js"></script>
 </body>
 </html>

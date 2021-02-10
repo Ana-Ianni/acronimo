@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" sizes="16×14" href="favicon.png">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <nav>
@@ -38,17 +37,17 @@
     </nav>
 
     <div class="container cont-inicio">
-        <div class="row">
-            <img src="multimedia/portada-svcio.svg" alt="" class="portada">
+        <div class="row section">
+            <img src="multimedia/portada-svcio.png" alt="" class="portada">
             <img src="multimedia/portada-svcio-sm.png" alt="" class="portada-sm">
-            <p class="frase1 frase1-s">What we do <span class="frase1-color">?</span></p>
+            <p class="frase1 frase1-s" id="first-heading">What we do <span class="frase1-color">?</span></p>
             <p class="texto1 texto1-s">We are a digital boutique agency, 100% remote, focused on providing Public Relations and Marketing Solutions.</p>
         </div>
-        <div class="row row-frase-portada-s">
+        <div class="row row-frase-portada-s section hidden" id="relacionesPublicas">
             <p class="frase2-s">Public Relations and Institutional Communications</p>
             <div class="linea1-svcio"></div>
         </div>
-        <div class="row cards-inicio">
+        <div class="row cards-inicio section hidden">
             <div class="col col-lg-4 col-md-4 col-12 card">
                 <img src="multimedia/logo-svcio-1.svg" alt="" class="icono-card-svcio">
                 <p class="titulo-card2">Branding and Digital Identity </p>
@@ -65,7 +64,7 @@
                 <p class="texto-card2">We design a reputational crisis plan that will help you to optimize the available resources and the time of reaction during a crisis. In addition, it will help to minimize the negative effects your business can have after a situation like this. </p>
             </div>
         </div>
-        <div class="row row-mkt">
+        <div class="row row-mkt section hidden" id="marketingDigital">
             <img src="multimedia/mockup-mkt.svg" alt="" class="mockup-mkt">
             <p class="titulo-mkt">Digital Marketing</p>
             <div class="textos-mkt">
@@ -94,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="row svcios-mkt-sm">
+        <div class="row svcios-mkt-sm section hidden" id="marketingDigital">
             <div class="col-lg-4 col-md-4 col-12 card-mkt">
                 <img src="multimedia/svcio-mkt1.svg" alt="">
                 <p class="card-mkt--titulo">E-mail Marketing</p>
@@ -111,9 +110,9 @@
                 <p class="card-mkt--texto">We create, manage and optimize your online store, making sure that your products gets to any geographic point and letting your clients satisfied. </p>
             </div>
         </div>
-        <div class="row row-webDev">
+        <div class="row row-webDev section hidden" id="webDev">
             <div class="col-lg-6 col-md-6 col-12 col-dev1">
-                <img src="multimedia/fondo-dev.svg" alt="" class="fondo-dev">
+                <img src="multimedia/fondo-dev.png" alt="" class="fondo-dev">
                 <p>Web Development</p>
                 <div class="linea-dev"></div>
                 <img src="multimedia/icono-dev.svg" alt="" class="iconoDev">
@@ -125,9 +124,9 @@
                 </p>
             </div>
         </div>
-        <div class="row row-social-media">
-            <img src="multimedia/social-media.svg" alt="" class="social-media-fondo">
-            <img src="multimedia/servicios-bottom-sm.svg" alt="" class="social-sm">
+        <div class="row row-social-media section hidden" id="socialMedia">
+            <img src="multimedia/social-media.png" alt="" class="social-media-fondo">
+            <img src="multimedia/servicios-bottom-sm.png" alt="" class="social-sm">
             <div class="titulo-social-media">
                 <p>Social Media</p>
                 <div class="linea3"></div>
@@ -150,7 +149,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-contacto" id="contacto">
+        <div class="row row-contacto section hidden" id="contacto">
             <div class="row row-contacto-inner">
                 <div class="col-lg-4 col-md-4 col-info">
                     <p class="contactanos">Contact us</p>
@@ -188,7 +187,7 @@
             </div>
         </div>
         <footer>
-            <div class="contacto-footer">
+            <div class="contacto-footer section">
                 <div class="wrap-c info-contacto-sm">
                     <div class="info-wrap">
                         <img src="multimedia/logo-mail.svg" alt="">
@@ -215,8 +214,6 @@
             </div>
         </footer>
     </div>
-
-
 <script src="app.js"></script>
 </body>
 </html>
